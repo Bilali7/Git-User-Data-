@@ -1,0 +1,36 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile User</title>
+    <link rel="stylesheet" href="ass.css">
+    <link rel="icon" href="gut.webp">
+
+  </head>
+  <body>
+    <div class="card"> 
+      <div>
+        <input type="text" id="username" placeholder="Enter GitHub username" value="Rizwanjamal">
+        <button onclick="fetchUserProfile()">Search</button>
+      </div>
+      
+      <div class="profile">
+        <img id="avatar" src="" alt="Avatar">
+        <h3 id="name">Name</h3>
+        <p id="bio">Bio</p>
+        <p id="email">Email: <span>No Email</span></p>
+        <p id="followers">Followers: 0</p>
+        <p id="repos">Repos: 0</p>
+        <p id="location">Location: Unknown</p>
+        <p id="company">Company: Unknown</p>
+      </div>
+      <button class="theme-toggle" onclick="toggleTheme()">Toggle Dark/Light Theme</button>
+    </div>
+    <script src="api.js"></script>
+  </body>
+  </html>
+
+
+
+
